@@ -21,7 +21,7 @@ ________________________________________________________________________________
 1. Create MiniApp and Root-Config directories
       - mkdir root-config construction-loan success api
 1. Crate single SPA root-config application
-      = cd root-config
+      - cd root-config
       - npx create-single-spa
          
          You will be pressented with the following options:
