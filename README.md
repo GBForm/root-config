@@ -7,6 +7,8 @@ This is the root-config for a mock Construction loan appliaction form built usin
 ### Instructions
 ________________________________________________________________________________________________________________________________________
 
+1. Clone this repo
+1. npm install
 1. yarn start --port 9000
 
 
