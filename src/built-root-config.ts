@@ -1,13 +1,5 @@
 import { registerApplication, start } from "single-spa";
 
-// registerApplication({
-//   name: "@single-spa/welcome",
-//   app: () =>
-//     System.import(
-//       "https://unpkg.com/single-spa-welcome/dist/single-spa-welcome.js"
-//     ),
-//   activeWhen: ["/"],
-// });
 
 registerApplication({
   name: "@built/loan-application",
@@ -17,6 +9,11 @@ registerApplication({
 registerApplication({
   name: "@built/success",
   app: () => System.import("@built/success"),
+  activeWhen: ["/"],
+});
+registerApplication({
+  name: "@built/api",
+  app: () => System.import("@built/api"),
   activeWhen: ["/"],
 });
 
