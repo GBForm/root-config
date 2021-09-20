@@ -1,6 +1,5 @@
 import { registerApplication, start } from "single-spa";
 
-
 registerApplication({
   name: "@built/loan-application",
   app: () => System.import("@built/loan-application"),
