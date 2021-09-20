@@ -22,11 +22,11 @@ ________________________________________________________________________________
       - cd built
 1. Create MiniApp and Root-Config directories
       - mkdir root-config construction-loan success api
-1. Crate single SPA root-config application
+1. Create single SPA root-config application
       - cd root-config
       - npx create-single-spa
          
-         You will be pressented with the following options:
+         To Be Continued...
           
               
       
